@@ -1,4 +1,10 @@
-streamlit==1.24.0
-nbconvert==7.6.1
-nbformat==5.7.0
-PyPDF2==3.0.1
+# Jupyter Notebook components
+nbconvert>=7.6
+nbformat>=5.8
+
+# PDF handling
+PyPDF2>=3.0
+
+# Additional optional dependencies for nbconvert PDF conversion
+# You may need pandoc to convert notebooks to PDF, but this goes in packages.txt
+# Depending on the system, other optional dependencies might be necessary (like TeX for PDF)
