@@ -1,3 +1,6 @@
+# Streamlit - core library for your app
+streamlit>=1.24
+
 # Jupyter Notebook components
 nbconvert>=7.6
 nbformat>=5.8
